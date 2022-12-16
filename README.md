@@ -20,3 +20,7 @@ Computer graphics project using ray casting.
     ./main
 ```
 
+# Alternative Compile
+```
+g++ main.cpp implementation/*.cpp -Ofast -flto -pipe -lSDL2 -o main && ./main
+```
